@@ -1,0 +1,341 @@
+<app-header-one></app-header-one>
+
+<section class="page-title-area">
+    <div class="container">
+        <div class="page-title-content">
+            <h2>Products Details</h2>
+            <ul>
+                <li><a routerLink="/">Home</a></li>
+                <li>Products Details</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="product-details-area pt-100 pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-12">
+                <div class="products-details-image">
+                    <ul class="products-details-image-slides">
+                        <li><img src="assets/img/products/img1.jpg" alt="image"></li>
+                        <li><img src="assets/img/products/img2.jpg" alt="image"></li>
+                        <li><img src="assets/img/products/img3.jpg" alt="image"></li>
+                    </ul>
+
+                    <div class="slick-thumbs">
+                        <ul>
+                            <li><img src="assets/img/products/img1.jpg" alt="image"></li>
+                            <li><img src="assets/img/products/img2.jpg" alt="image"></li>
+                            <li><img src="assets/img/products/img3.jpg" alt="image"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7 col-md-12">
+                <div class="products-details-desc">
+                    <h3>Medical Mask</h3>
+
+                    <div class="price">
+                        <span class="new-price">$18.00</span>
+                        <span class="old-price">$20.00</span>
+                    </div>
+
+                    <div class="products-review">
+                        <div class="rating">
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                        <a href="#" class="rating-count">3 reviews</a>
+                    </div>
+
+                    <ul class="products-info">
+                        <li><span>Availability:</span> <a href="#">In stock (7 items)</a></li>
+                        <li><span>Products Type:</span> <a href="#">Mask</a></li>
+                    </ul>
+
+                    <div class="products-info-btn">
+                        <a routerLink="/contact"><i class='bx bx-envelope'></i> Ask about this products</a>
+                    </div>
+
+                    <div class="products-add-to-cart">
+                        <div class="input-counter">
+                            <span class="minus-btn"><i class='bx bx-minus'></i></span>
+                            <input type="text" value="1">
+                            <span class="plus-btn"><i class='bx bx-plus'></i></span>
+                        </div>
+
+                        <button type="submit" class="default-btn"><i class="flaticon-shopping-cart"></i> Add to Cart</button>
+                    </div>
+
+                    <div class="buy-checkbox-btn">
+                        <div class="item">
+                            <input class="inp-cbx" id="cbx" type="checkbox">
+                            <label class="cbx" for="cbx">
+                                <span>
+                                    <svg width="12px" height="10px" viewbox="0 0 12 10">
+                                        <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                                    </svg>
+                                </span>
+                                <span>I agree with the terms and conditions</span>
+                            </label>
+                        </div>
+
+                        <div class="item">
+                            <a routerLink="/cart" class="default-btn">Buy it now!</a>
+                        </div>
+                    </div>
+
+                    <div class="products-details-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Description
+                                    <i class="flaticon-add"></i>
+                                </a>
+                            </div>
+    
+                            <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordionEx">
+                                <div class="card-body">
+                                    <p>Design inspiration lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim.</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingTwo">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Additional information
+                                    <i class="flaticon-add"></i>
+                                </a>
+                            </div>
+    
+                            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordionEx">
+                                <div class="card-body">
+                                    <table class="table table-striped">
+                                        <tbody>
+                                            <tr>
+                                                <td>Brand:</td>
+                                                <td>EnvyTheme</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Color:</td>
+                                                <td>Brown</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Size:</td>
+                                                <td>Large, Medium</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Weight:</td>
+                                                <td>1 kg</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dimensions:</td>
+                                                <td>16 x 22 x 123 cm</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Reviews
+                                    <i class="flaticon-add"></i>
+                                </a>
+                            </div>
+    
+                            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordionEx">
+                                <div class="card-body">
+                                    <div class="products-review-form">
+                                        <h3>Customer Reviews</h3>
+    
+                                        <div class="review-title">
+                                            <div class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bx-star'></i>
+                                            </div>
+                                            <p>Based on 3 reviews</p>
+                                            <a href="#" class="default-btn"><i class="flaticon-add"></i> Write a Review</a>
+                                        </div>
+    
+                                        <div class="review-comments">
+                                            <div class="review-item">
+                                                <div class="rating">
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bx-star'></i>
+                                                </div>
+                                                <h3>Good</h3>
+                                                <span><strong>Admin</strong> on <strong>Sep 21, 2019</strong></span>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                                            </div>
+    
+                                            <div class="review-item">
+                                                <div class="rating">
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bx-star'></i>
+                                                </div>
+                                                <h3>Good</h3>
+                                                <span><strong>Admin</strong> on <strong>Sep 21, 2019</strong></span>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                                            </div>
+    
+                                            <div class="review-item">
+                                                <div class="rating">
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bx-star'></i>
+                                                </div>
+                                                <h3>Good</h3>
+                                                <span><strong>Admin</strong> on <strong>Sep 21, 2019</strong></span>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                                            </div>
+                                        </div>
+    
+                                        <div class="review-form">
+                                            <h3>Write a Review</h3>
+    
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="form-group">
+                                                            <input type="text" id="name" name="name" placeholder="Enter your name" class="form-control">
+                                                        </div>
+                                                    </div>
+    
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="form-group">
+                                                            <input type="email" id="email" name="email" placeholder="Enter your email" class="form-control">
+                                                        </div>
+                                                    </div>
+    
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <div class="form-group">
+                                                            <input type="text" id="review-title" name="review-title" placeholder="Enter your review a title" class="form-control">
+                                                        </div>
+                                                    </div>
+    
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <div class="form-group">
+                                                            <textarea name="review-body" id="review-body" cols="30" rows="6" placeholder="Write your comments here" class="form-control"></textarea>
+                                                        </div>
+                                                    </div>
+    
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <button type="submit" class="default-btn"><i class="flaticon-open-book"></i> Submit Review</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="related-products">
+        <div class="container">
+            <div class="section-title">
+                <span class="sub-title">Our Shop</span>
+                <h2>Related Products</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-products-box">
+                        <div class="products-image">
+                            <a routerLink="/products-details">
+                                <img src="assets/img/products/img1.jpg" alt="image">
+                            </a>
+                        </div>
+
+                        <div class="products-content">
+                            <h3><a routerLink="/products-details">Medical Mask</a></h3>
+                            <div class="price">
+                                <span class="new">$18</span>
+                            </div>
+                            <a routerLink="/cart" class="add-to-cart-btn"><i class="flaticon-shopping-cart"></i> Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-products-box">
+                        <div class="products-image">
+                            <a routerLink="/products-details">
+                                <img src="assets/img/products/img2.jpg" alt="image">
+                            </a>
+                        </div>
+
+                        <div class="products-content">
+                            <h3><a routerLink="/products-details">Antiseptics</a></h3>
+                            <div class="price">
+                                <span class="new">$20</span>
+                            </div>
+                            <a routerLink="/cart" class="add-to-cart-btn"><i class="flaticon-shopping-cart"></i> Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-products-box">
+                        <div class="products-image">
+                            <a routerLink="/products-details">
+                                <img src="assets/img/products/img3.jpg" alt="image">
+                            </a>
+                        </div>
+
+                        <div class="products-content">
+                            <h3><a routerLink="/products-details">Medical Gloves</a></h3>
+                            <div class="price">
+                                <span class="new">$15</span>
+                                <span class="old">$20</span>
+                            </div>
+                            <a routerLink="/cart" class="add-to-cart-btn"><i class="flaticon-shopping-cart"></i> Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-products-box">
+                        <div class="products-image">
+                            <a routerLink="/products-details">
+                                <img src="assets/img/products/img4.jpg" alt="image">
+                            </a>
+                        </div>
+
+                        <div class="products-content">
+                            <h3><a routerLink="/products-details">Drugs</a></h3>
+                            <div class="price">
+                                <span class="new">$10</span>
+                            </div>
+                            <a routerLink="/cart" class="add-to-cart-btn"><i class="flaticon-shopping-cart"></i> Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
